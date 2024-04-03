@@ -18,7 +18,7 @@
 <style>
   /* Sets background image and pseudoelement for transparency */
   article#home {
-    background-image: url("../img/background.png");
+    background-image: url("/img/background.png");
   }
 
   article#home::before {
