@@ -6,14 +6,16 @@
   <!-- Picture -->
   <div class="col-8 col-md-5">
     <img
-      type="button"
       data-bs-toggle="modal"
       data-bs-target="#profile-full"
       class="right-not-animated profile-full img-fluid"
       src="img/profile/profile2-full.jpg"
+      alt="profile"
     />
 
-    <Modal id="profile-full"><img src="img/profile/profile2-full.jpg" /></Modal>
+    <Modal id="profile-full"
+      ><img src="img/profile/profile2-full.jpg" alt="profile" /></Modal
+    >
   </div>
 
   <!-- Spacer column -->

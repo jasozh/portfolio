@@ -12,14 +12,14 @@
   <!-- Screenshot and modal -->
   <div class="col-md-6">
     <img
-      type="button"
       data-bs-toggle="modal"
       data-bs-target="#{id}"
       class="left-not-animated hobby-picture shadow-sm img-thumbnail img-fluid"
       src={screenshot}
+      alt="hobby"
     />
 
-    <Modal {id}><img src={screenshot} /></Modal>
+    <Modal {id}><img src={screenshot} alt="hobby" /></Modal>
   </div>
 
   <!-- Text body -->
