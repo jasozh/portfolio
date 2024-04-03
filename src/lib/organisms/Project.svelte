@@ -18,7 +18,7 @@
     <img
       data-bs-toggle="modal"
       data-bs-target="#{id}"
-      class="right-not-animated img-fluid"
+      class="right-not-animated img-fluid img-button"
       src={screenshot}
       alt="project"
     />
@@ -45,5 +45,9 @@
 
   h1.project-heading {
     margin-bottom: 0;
+  }
+
+  img.img-button {
+    cursor: pointer;
   }
 </style>

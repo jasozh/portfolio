@@ -20,9 +20,9 @@ html {
   margin-right: calc(-1 * (100vw - 100%));
 }
 
-/* .navbar-collapse.justify-content-center {
+.navbar-collapse.justify-content-center {
   margin-right: calc(-1 * (100vw - 100%));
-} */
+}
 
 .modal-open {
   padding-right: 0 !important;

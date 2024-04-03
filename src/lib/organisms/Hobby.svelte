@@ -14,7 +14,7 @@
     <img
       data-bs-toggle="modal"
       data-bs-target="#{id}"
-      class="left-not-animated hobby-picture shadow-sm img-thumbnail img-fluid"
+      class="left-not-animated hobby-picture shadow-sm img-thumbnail img-fluid img-button"
       src={screenshot}
       alt="hobby"
     />
@@ -35,5 +35,9 @@
   /* Styling for hobby pictures */
   img.hobby-picture {
     border-radius: 5%;
+  }
+
+  img.img-button {
+    cursor: pointer;
   }
 </style>

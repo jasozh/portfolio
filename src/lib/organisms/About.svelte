@@ -8,7 +8,7 @@
     <img
       data-bs-toggle="modal"
       data-bs-target="#profile-full"
-      class="right-not-animated profile-full img-fluid"
+      class="right-not-animated profile-full img-fluid img-button"
       src="img/profile/profile2-full.jpg"
       alt="profile"
     />
@@ -50,5 +50,9 @@
   /* Styling for profile picture */
   img.profile-full {
     border-radius: 10%;
+  }
+
+  img.img-button {
+    cursor: pointer;
   }
 </style>
