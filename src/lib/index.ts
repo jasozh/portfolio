@@ -1,1 +1,9 @@
-// place files you want to import through the `$lib` alias in this folder.
+// Atoms
+
+// Molecules
+
+// Organisms
+export { default as Project } from "$lib/organisms/Project.svelte";
+export { default as Hobby } from "$lib/organisms/Hobby.svelte";
+
+// Templates
