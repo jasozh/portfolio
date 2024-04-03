@@ -1,6 +1,7 @@
 // Atoms
 
 // Molecules
+export { default as Appbar } from "$lib/molecules/Appbar.svelte";
 
 // Organisms
 export { default as Footer } from "$lib/organisms/Footer.svelte";

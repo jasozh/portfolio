@@ -1,18 +1,11 @@
 <script>
-  import { Project, Hobby, Footer } from "$lib";
+  import { Project, Hobby, Footer, Navbar } from "$lib";
   import { projects, hobbies } from "$lib/data";
-  import { scrollAnimate, resizeNavbar, colorNavbar } from "$lib/script";
+  import { scrollAnimate } from "$lib/script";
   import { onMount } from "svelte";
 
   onMount(() => {
-    resizeNavbar();
-
-    window.onresize = function () {
-      resizeNavbar();
-    };
-
     window.onscroll = function () {
-      colorNavbar();
       scrollAnimate();
     };
   });
@@ -36,53 +29,7 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
   <!-- Header  -->
-  <header>
-    <nav
-      id="navbar"
-      class="navbar fixed-top navbar-expand-md navbar-light bg-light opacity-75"
-    >
-      <div class="container-fluid">
-        <!-- Navbar brand -->
-        <a class="navbar-brand d-md-none" href=".">
-          <img
-            src="img/logo.png"
-            id="logo"
-            alt=""
-            class="d-inline-block align-text-top"
-          />
-          &nbsp;&nbsp;Jason Zheng
-        </a>
-
-        <!-- Responsive toggle -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar content -->
-        <div
-          class="collapse navbar-collapse justify-content-center"
-          id="navbarNavAltMarkup"
-        >
-          <div class="navbar-nav">
-            <a id="top-nav" class="nav-link px-4" href="#home">Home</a>
-            <a class="nav-link px-4" href="#about">About</a>
-            <a class="nav-link px-4" href="#contact">Contact</a>
-            <a class="nav-link px-4" href="#projects">Projects</a>
-            <a class="nav-link px-4" href="#hobbies">Hobbies</a>
-            <!-- <a class="nav-link px-4" href="https://en.wikipedia.org/wiki/Special:Random">Random</a> -->
-          </div>
-        </div>
-      </div>
-    </nav>
-  </header>
+  <Navbar />
 
   <!-- Main content -->
   <main>

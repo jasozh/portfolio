@@ -1,9 +1,13 @@
 <script lang="ts">
-  // logic goes here
+  import { Appbar } from "$lib";
+
+  const navs = [
+    { label: "Home", link: "#home" },
+    { label: "About", link: "#about" },
+    { label: "Contact", link: "#contact" },
+    { label: "Projects", link: "#projects" },
+    { label: "Hobbies", link: "#hobbies" },
+  ];
 </script>
 
-<!-- markup (zero or more items) goes here -->
-
-<style>
-  /* styles go here */
-</style>
+<Appbar {navs} />
