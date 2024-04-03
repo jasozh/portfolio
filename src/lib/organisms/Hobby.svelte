@@ -3,6 +3,8 @@
   export let title: string;
   export let screenshot: string;
   export let body: string;
+
+  import { Modal } from "$lib";
 </script>
 
 <h1 class="mobile-text text-center text-md-start">{title}</h1>
@@ -17,13 +19,7 @@
       src={screenshot}
     />
 
-    <div class="modal fade" {id} tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-          <img src={screenshot} />
-        </div>
-      </div>
-    </div>
+    <Modal {id}><img src={screenshot} /></Modal>
   </div>
 
   <!-- Text body -->

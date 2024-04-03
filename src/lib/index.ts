@@ -2,6 +2,7 @@
 
 // Molecules
 export { default as Appbar } from "$lib/molecules/Appbar.svelte";
+export { default as Modal } from "$lib/molecules/Modal.svelte";
 
 // Organisms
 export { default as About } from "$lib/organisms/About.svelte";

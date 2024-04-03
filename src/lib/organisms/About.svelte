@@ -1,3 +1,7 @@
+<script lang="ts">
+  import { Modal } from "$lib";
+</script>
+
 <div class="row flex-row-reverse justify-content-center align-items-center">
   <!-- Picture -->
   <div class="col-8 col-md-5">
@@ -9,13 +13,7 @@
       src="img/profile/profile2-full.jpg"
     />
 
-    <div class="modal fade" id="profile-full" tabindex="-1" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content">
-          <img src="img/profile/profile2-full.jpg" />
-        </div>
-      </div>
-    </div>
+    <Modal id="profile-full"><img src="img/profile/profile2-full.jpg" /></Modal>
   </div>
 
   <!-- Spacer column -->
