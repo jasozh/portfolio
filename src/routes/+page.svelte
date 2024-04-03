@@ -1,5 +1,5 @@
 <script>
-  import { Project, Hobby } from "$lib";
+  import { Project, Hobby, Footer } from "$lib";
   import { projects, hobbies } from "$lib/data";
   import { scrollAnimate, resizeNavbar, colorNavbar } from "$lib/script";
   import { onMount } from "svelte";
@@ -308,9 +308,5 @@
   </main>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer container">
-      &copy; 2024 Jason Zheng. All rights reserved.
-    </div>
-  </footer>
+  <Footer>&copy; 2024 Jason Zheng. All rights reserved.</Footer>
 </body>
