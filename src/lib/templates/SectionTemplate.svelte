@@ -23,3 +23,18 @@
     <div class="pb-5"></div>
   </div>
 </article>
+
+<style>
+  /* Styling for all page contents */
+  .content {
+    padding: 100px 20px 20px 20px;
+    min-height: 100vh;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  /* Alternate article background */
+  article.alternate {
+    background: #f0f2f5;
+  }
+</style>

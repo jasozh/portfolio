@@ -19,3 +19,10 @@
     </div>
   </div>
 </article>
+
+<style>
+  /* Alternate article background */
+  article.alternate {
+    background: #f0f2f5;
+  }
+</style>

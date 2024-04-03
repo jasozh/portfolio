@@ -20,9 +20,9 @@ html {
   margin-right: calc(-1 * (100vw - 100%));
 }
 
-.navbar-collapse.justify-content-center {
+/* .navbar-collapse.justify-content-center {
   margin-right: calc(-1 * (100vw - 100%));
-}
+} */
 
 .modal-open {
   padding-right: 0 !important;
@@ -31,11 +31,6 @@ html {
 /* Hides x overflow to allow animations to slide in images offscreen */
 body {
   overflow-x: hidden;
-}
-
-/* Alternate article background */
-article.alternate {
-  background: #f0f2f5;
 }
 
 /* Animation classes for animating dividers when scrolled into view */
@@ -103,30 +98,11 @@ article.alternate {
   }
 }
 
-/* Logo styling */
-img#logo {
-  border-radius: 50%;
-  height: 25px;
-}
-
 /*
  *
  *  Styling for About
  *
  */
-
-/* Styling for all page contents */
-.content {
-  padding: 100px 20px 20px 20px;
-  min-height: 100vh;
-  max-width: 1100px;
-  margin: auto;
-}
-
-/* Styling for profile picture */
-img.profile-full {
-  border-radius: 10%;
-}
 
 /* Animation classes for animating images when scrolled from right into view */
 .right-not-animated {
@@ -151,20 +127,10 @@ img.profile-full {
  *
  */
 
-img.project-logo {
-  width: 3rem;
-  height: 3rem;
-  margin-right: 1rem;
-}
-
 .project-header {
   align-items: center;
   display: flex;
   flex-direction: row;
-}
-
-h1.project-heading {
-  margin-bottom: 0;
 }
 
 /* Hide/show text when on mobile/desktop */
@@ -193,11 +159,6 @@ h1.project-heading {
  *  Styling for Hobbies
  *
  */
-
-/* Styling for hobby pictures */
-img.hobby-picture {
-  border-radius: 5%;
-}
 
 /* Animation classes for animating images when scrolled from left into view */
 .left-not-animated {

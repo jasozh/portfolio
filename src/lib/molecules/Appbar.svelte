@@ -109,3 +109,11 @@
     </div>
   </nav>
 </header>
+
+<style>
+  /* Logo styling */
+  img#logo {
+    border-radius: 50%;
+    height: 25px;
+  }
+</style>

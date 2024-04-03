@@ -45,3 +45,10 @@
     <p>My resume is available <a href="docs/Resume.pdf">here</a>.</p>
   </div>
 </div>
+
+<style>
+  /* Styling for profile picture */
+  img.profile-full {
+    border-radius: 10%;
+  }
+</style>

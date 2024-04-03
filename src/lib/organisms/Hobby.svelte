@@ -36,5 +36,8 @@
 </div>
 
 <style>
-  /* styles go here */
+  /* Styling for hobby pictures */
+  img.hobby-picture {
+    border-radius: 5%;
+  }
 </style>

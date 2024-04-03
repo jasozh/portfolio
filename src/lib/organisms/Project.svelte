@@ -41,5 +41,13 @@
 </div>
 
 <style>
-  /* styles go here */
+  img.project-logo {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+  }
+
+  h1.project-heading {
+    margin-bottom: 0;
+  }
 </style>
