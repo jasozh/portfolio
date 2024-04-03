@@ -1,6 +1,8 @@
 <script lang="ts">
   import { Appbar } from "$lib";
 
+  export let id: string;
+
   const navs = [
     { label: "Home", link: "#home" },
     { label: "About", link: "#about" },
@@ -10,4 +12,4 @@
   ];
 </script>
 
-<Appbar {navs} />
+<Appbar {id} {navs} />

@@ -1,6 +1,9 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
+  /** The id of the navbar */
+  export let id: string;
+
   /** List of nav labels and links in order of display */
   export let navs: { label: string; link: string }[];
 
@@ -21,7 +24,7 @@
 
   /** Changes the navbar color depending on current screen position */
   export function colorNavbar() {
-    const navbar = document.getElementById("navbar") as HTMLElement;
+    const navbar = document.getElementById(id) as HTMLElement;
     const home = document.getElementById("top-nav") as HTMLElement;
 
     if (scroll == 0) {
@@ -60,7 +63,7 @@
 
 <header>
   <nav
-    id="navbar"
+    {id}
     class="navbar fixed-top navbar-expand-md navbar-light bg-light opacity-75"
   >
     <div class="container-fluid">
