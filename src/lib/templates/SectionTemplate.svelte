@@ -23,7 +23,7 @@
 <style>
   /* Styling for all page contents */
   .content {
-    padding: 100px 0 100px 0;
+    padding: 100px 20px 100px 20px;
     min-height: 100vh;
     max-width: 1100px;
     margin: auto;
