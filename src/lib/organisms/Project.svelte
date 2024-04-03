@@ -32,7 +32,7 @@
       <img class="project-logo" src={logo} alt="project logo" />
       <h1 class="project-heading">{title}</h1>
     </div>
-    <p>{body}</p>
+    <p>{@html body}</p>
   </div>
 </div>
 

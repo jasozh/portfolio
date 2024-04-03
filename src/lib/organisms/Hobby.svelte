@@ -27,7 +27,7 @@
     <h1 class="desktop-text pb-3 text-center text-md-start">
       {title}
     </h1>
-    <p>{body}</p>
+    <p>{@html body}</p>
   </div>
 </div>
 
