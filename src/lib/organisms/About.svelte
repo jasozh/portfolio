@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Modal } from "$lib";
+  // import { Modal } from "$lib";
   import { isInViewport } from "$lib/helpers";
   import { onMount } from "svelte";
   import { base } from "$app/paths";
@@ -26,19 +26,18 @@
       bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#profile-full"
-      class="right-not-animated profile-full img-fluid img-button"
+      class="right-not-animated profile-full img-fluid"
       class:right-animated={startAnimation}
       src="{base}/img/profile/profile2-full.jpg"
       alt="profile"
     />
-
-    <Modal id="profile-full"
+    <!-- <Modal id="profile-full"
       ><img
         src="{base}/img/profile/profile2-full.jpg"
         class="img-modal"
         alt="profile"
       /></Modal
-    >
+    > -->
   </div>
 
   <!-- Spacer column -->

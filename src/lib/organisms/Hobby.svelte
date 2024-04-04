@@ -4,7 +4,7 @@
   export let screenshot: string;
   export let body: string;
 
-  import { Modal } from "$lib";
+  // import { Modal } from "$lib";
   import { isInViewport } from "$lib/helpers";
   import { onMount } from "svelte";
 
@@ -31,13 +31,12 @@
       bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#{id}"
-      class="left-not-animated hobby-picture img-thumbnail img-fluid img-button"
+      class="left-not-animated hobby-picture img-thumbnail img-fluid"
       class:left-animated={startAnimation}
       src={screenshot}
       alt="hobby"
     />
-
-    <Modal {id}><img src={screenshot} class="img-modal" alt="hobby" /></Modal>
+    <!-- <Modal {id}><img src={screenshot} class="img-modal" alt="hobby" /></Modal> -->
   </div>
 
   <!-- Text body -->
