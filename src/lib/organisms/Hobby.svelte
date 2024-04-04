@@ -40,4 +40,25 @@
   img.img-button {
     cursor: pointer;
   }
+
+  /* Hide/show text when on mobile/desktop */
+  @media screen and (max-width: 767px) {
+    .mobile-text {
+      display: default;
+    }
+
+    .desktop-text {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .mobile-text {
+      display: none;
+    }
+
+    .desktop-text {
+      display: default;
+    }
+  }
 </style>
