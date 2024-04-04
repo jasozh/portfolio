@@ -7,13 +7,12 @@
 </script>
 
 <article {id} class={color === "gray" ? "alternate" : ""}>
-  <div class="content container">
+  <div class="content">
     <!-- Title -->
     <SectionHeader>{title}</SectionHeader>
 
     <!-- Spacers -->
-    <div class="pb-5"></div>
-    <div class="pb-5"></div>
+    <div class="tw-pb-24" />
 
     <!-- CHILDREN LOADED HERE -->
     <slot />
@@ -21,8 +20,6 @@
 </article>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   /* Styling for all page contents */
   .content {
     padding: 100px 20px 100px 20px;

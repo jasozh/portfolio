@@ -8,21 +8,19 @@
 
 <article {id} class={color === "gray" ? "alternate" : ""}>
   <div
-    class="d-flex flex-column min-vh-100 justify-content-center align-items-center"
+    class="tw-flex tw-min-h-screen tw-flex-col tw-items-center tw-justify-center"
   >
     <!-- Title -->
     <SectionHeader>{title}</SectionHeader>
 
     <!-- CHILDREN LOADED HERE -->
-    <div class="pt-5">
+    <div class="tw-pt-12">
       <slot />
     </div>
   </div>
 </article>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   /* Alternate article background */
   article.alternate {
     background: #f5f5f5;

@@ -17,13 +17,9 @@ You can find me on the Internet here:
   </li>
 </ul>
 
-<p>
+<p class="tw-pt-5">
   You can contact me at <a
     href="mailto:jasonqzheng@gmail.com?subject=Email from jasozh.github.io"
     >jasonqzheng@gmail.com</a
   >.
 </p>
-
-<style>
-  @import "$lib/bootstrap.min.css";
-</style>

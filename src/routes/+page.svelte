@@ -62,11 +62,9 @@
             body={project.body}
           />
 
+          <!-- Spacers -->
           {#if i < projects.length - 1}
-            <!-- Spacers -->
-            <div class="pb-5"></div>
-            <div class="pb-5"></div>
-            <div class="pb-5"></div>
+            <div class="tw-pb-36"></div>
           {/if}
         </div>
       {/each}
@@ -83,11 +81,9 @@
             body={hobby.body}
           />
 
+          <!-- Spacers -->
           {#if i < hobbies.length - 1}
-            <!-- Spacers -->
-            <div class="pb-5"></div>
-            <div class="pb-5"></div>
-            <div class="pb-5"></div>
+            <div class="tw-pb-36"></div>
           {/if}
         </div>
       {/each}
@@ -97,7 +93,3 @@
   <!-- Footer -->
   <Footer>&copy; 2024 Jason Zheng. All rights reserved.</Footer>
 </div>
-
-<style>
-  @import "$lib/bootstrap.min.css";
-</style>

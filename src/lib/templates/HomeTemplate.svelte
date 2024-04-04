@@ -4,20 +4,18 @@
 
 <article {id}>
   <div
-    class="home-content d-flex flex-column min-vh-100 justify-content-center align-items-center"
+    class="home-content tw-flex tw-min-h-screen tw-flex-col tw-items-center tw-justify-center"
   >
-    <div class="py-5"></div>
+    <div class="tw-py-12"></div>
 
     <!-- CHILDREN LOADED HERE -->
     <slot />
 
-    <div class="py-5"></div>
+    <div class="tw-py-12"></div>
   </div>
 </article>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   /* Sets background image and pseudoelement for transparency */
   article#home {
     background-image: url("/img/background.png");
