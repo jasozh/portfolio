@@ -77,6 +77,7 @@
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 15px;
   }
 
   /* Hide/show text when on mobile/desktop */

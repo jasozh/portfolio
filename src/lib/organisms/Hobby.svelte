@@ -23,7 +23,7 @@
   });
 </script>
 
-<h1 class="mobile-text text-center text-md-start">{title}</h1>
+<h1 class="mobile-text text-center text-md-start hobby-header">{title}</h1>
 <div class="row flex-row justify-content-center align-items-center">
   <!-- Screenshot and modal -->
   <div class="col-md-6">
@@ -50,6 +50,10 @@
 </div>
 
 <style>
+  .hobby-header {
+    margin-bottom: 15px;
+  }
+
   /* Styling for hobby pictures */
   img.hobby-picture {
     border-radius: 5%;
