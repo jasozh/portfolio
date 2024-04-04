@@ -102,8 +102,11 @@
       </button>
 
       <!-- Navbar content -->
+      <!-- TODO: class:collapsing is needed for the navbar animation to look smooth, or
+      Svelte will remove it -->
       <div
         class="collapse navbar-collapse justify-content-center"
+        class:collapsing={tmp}
         id="navbarNavAltMarkup"
       >
         <div class="navbar-nav">

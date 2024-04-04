@@ -35,7 +35,7 @@
       bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#{id}"
-      class="left-not-animated tw-rounded-xl tw-border tw-border-gray-200"
+      class="left-not-animated tw-rounded-2xl tw-border tw-border-gray-200"
       class:left-animated={startAnimation}
       src={screenshot}
       alt="hobby"
