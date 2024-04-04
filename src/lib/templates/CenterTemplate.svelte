@@ -21,6 +21,8 @@
 </article>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Alternate article background */
   article.alternate {
     background: #f5f5f5;

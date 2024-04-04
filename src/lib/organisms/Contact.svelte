@@ -1,5 +1,5 @@
 You can find me on the Internet here:
-<ul>
+<ul class="tw-list-disc">
   <li><a href="https://github.com/jasozh/">GitHub</a></li>
   <li>
     <a href="https://www.linkedin.com/in/jason-zheng-07a4a5223/">LinkedIn</a>
@@ -23,3 +23,7 @@ You can find me on the Internet here:
     >jasonqzheng@gmail.com</a
   >.
 </p>
+
+<style>
+  @import "$lib/bootstrap.min.css";
+</style>

@@ -55,6 +55,8 @@
 </div>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   img.img-modal {
     max-width: 100%;
   }

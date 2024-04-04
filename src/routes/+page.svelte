@@ -22,7 +22,7 @@
   <title>Jason Zheng</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="{base}/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="{base}/css/bootstrap.min.css" /> -->
   <link rel="stylesheet" href="{base}/css/style.css" />
 
   <!-- JS -->
@@ -97,3 +97,7 @@
   <!-- Footer -->
   <Footer>&copy; 2024 Jason Zheng. All rights reserved.</Footer>
 </div>
+
+<style>
+  @import "$lib/bootstrap.min.css";
+</style>

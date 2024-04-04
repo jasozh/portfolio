@@ -1,4 +1,12 @@
 /* Write your global styles here, in PostCSS syntax */
 @tailwind base;
+
+@layer base {
+  a {
+    @apply tw-text-blue-600 tw-underline dark:tw-text-blue-500;
+  }
+}
+
 @tailwind components;
+
 @tailwind utilities;

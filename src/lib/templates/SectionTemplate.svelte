@@ -21,6 +21,8 @@
 </article>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Styling for all page contents */
   .content {
     padding: 100px 20px 100px 20px;

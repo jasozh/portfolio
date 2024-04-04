@@ -14,6 +14,8 @@
 </div>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   .modal-content-img {
     border: 0;
     background: transparent;

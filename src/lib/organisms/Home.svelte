@@ -42,6 +42,8 @@
 </div>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Ensures that the main button group on Home is responsive */
   @media screen and (max-width: 991px) {
     .button-group {

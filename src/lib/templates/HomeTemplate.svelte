@@ -16,6 +16,8 @@
 </article>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Sets background image and pseudoelement for transparency */
   article#home {
     background-image: url("/img/background.png");

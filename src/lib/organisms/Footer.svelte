@@ -5,6 +5,8 @@
 </footer>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   footer {
     background: #212529;
     color: #9a9c9e;

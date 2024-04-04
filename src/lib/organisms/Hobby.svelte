@@ -50,6 +50,8 @@
 </div>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   .hobby-header {
     margin-bottom: 15px;
   }

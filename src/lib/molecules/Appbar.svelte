@@ -8,6 +8,11 @@
   /** List of nav labels and links in order of display */
   export let navs: { label: string; link: string }[];
 
+  /**
+   * TODO: This is a temporary variable to prevent Svelte from removing "unused"
+   * CSS styles. This should eventually be removed when you find a better way to
+   * apply the classes for the navbar.
+   */
   let tmp = false;
 
   onMount(() => {
@@ -68,6 +73,8 @@
   <nav
     {id}
     class="navbar fixed-top navbar-expand-md navbar-light bg-light opacity-75"
+    class:navbar-dark={tmp}
+    class:bg-dark={tmp}
   >
     <div class="container-fluid">
       <!-- Navbar brand -->
@@ -115,6 +122,8 @@
 </header>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Define CSS variables */
   :root {
     /* Default lightgrey, changes to black when navbar color is inverted */

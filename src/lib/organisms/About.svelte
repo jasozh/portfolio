@@ -70,6 +70,8 @@
 </div>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Styling for profile picture */
   img.profile-full {
     border-radius: 10%;

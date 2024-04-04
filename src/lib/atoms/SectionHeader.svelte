@@ -26,6 +26,8 @@
 </h1>
 
 <style>
+  @import "$lib/bootstrap.min.css";
+
   /* Animation classes for animating dividers when scrolled into view */
   .divider-not-animated {
     background: none;
