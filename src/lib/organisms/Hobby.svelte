@@ -37,7 +37,7 @@
       alt="hobby"
     />
 
-    <Modal {id}><img src={screenshot} alt="hobby" /></Modal>
+    <Modal {id}><img src={screenshot} class="img-modal" alt="hobby" /></Modal>
   </div>
 
   <!-- Text body -->
@@ -57,6 +57,10 @@
 
   img.img-button {
     cursor: pointer;
+  }
+
+  img.img-modal {
+    max-width: 100%;
   }
 
   /* Hide/show text when on mobile/desktop */

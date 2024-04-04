@@ -41,7 +41,7 @@
       alt="project"
     />
 
-    <Modal {id}><img src={screenshot} alt="project" /></Modal>
+    <Modal {id}><img src={screenshot} class="img-modal" alt="project" /></Modal>
   </div>
 
   <!-- Text body -->
@@ -55,6 +55,10 @@
 </div>
 
 <style>
+  img.img-modal {
+    max-width: 100%;
+  }
+
   img.project-logo {
     width: 3rem;
     height: 3rem;

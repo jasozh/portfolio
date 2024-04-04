@@ -33,7 +33,11 @@
     />
 
     <Modal id="profile-full"
-      ><img src="{base}/img/profile/profile2-full.jpg" alt="profile" /></Modal
+      ><img
+        src="{base}/img/profile/profile2-full.jpg"
+        class="img-modal"
+        alt="profile"
+      /></Modal
     >
   </div>
 
@@ -69,6 +73,10 @@
   /* Styling for profile picture */
   img.profile-full {
     border-radius: 10%;
+  }
+
+  img.img-modal {
+    max-width: 100%;
   }
 
   img.img-button {
