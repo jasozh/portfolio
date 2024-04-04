@@ -19,32 +19,12 @@
   });
 </script>
 
-<div class="row flex-row-reverse justify-content-center align-items-center">
-  <!-- Picture -->
-  <div class="col-8 col-md-5">
-    <img
-      bind:this={element}
-      data-bs-toggle="modal"
-      data-bs-target="#profile-full"
-      class="right-not-animated profile-full img-fluid"
-      class:right-animated={startAnimation}
-      src="{base}/img/profile/profile2-full.jpg"
-      alt="profile"
-    />
-    <!-- <Modal id="profile-full"
-      ><img
-        src="{base}/img/profile/profile2-full.jpg"
-        class="img-modal"
-        alt="profile"
-      /></Modal
-    > -->
-  </div>
-
-  <!-- Spacer column -->
-  <div class="col-md-1"></div>
-
+<!-- <div class="row flex-row-reverse justify-content-center align-items-center"> -->
+<div
+  class="tw-flex tw-flex-col-reverse tw-items-center tw-justify-center sm:tw-grid sm:tw-grid-cols-12"
+>
   <!-- Text body -->
-  <div class="col-md-6 pt-3">
+  <div class="tw-pt-5 sm:tw-col-span-6 sm:tw-pt-0">
     <p>
       Hello! I am an undergraduate student at Cornell University majoring in
       Computer Science, and I will be graduating in 2025 from the College of
@@ -66,11 +46,34 @@
 
     <p>My resume is available <a href="{base}/docs/Resume.pdf">here</a>.</p>
   </div>
+
+  <!-- Spacer column -->
+  <div class="sm:tw-col-span-1" />
+
+  <!-- Picture -->
+  <div class="sm:tw-col-span-5">
+    <div class="tw-px-2">
+      <img
+        bind:this={element}
+        data-bs-toggle="modal"
+        data-bs-target="#profile-full"
+        class="right-not-animated profile-full"
+        class:right-animated={startAnimation}
+        src="{base}/img/profile/profile2-full.jpg"
+        alt="profile"
+      />
+    </div>
+    <!-- <Modal id="profile-full"
+      ><img
+        src="{base}/img/profile/profile2-full.jpg"
+        class="img-modal"
+        alt="profile"
+      /></Modal
+    > -->
+  </div>
 </div>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   /* Styling for profile picture */
   img.profile-full {
     border-radius: 10%;

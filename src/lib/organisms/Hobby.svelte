@@ -23,15 +23,19 @@
   });
 </script>
 
-<h1 class="mobile-text text-center text-md-start hobby-header">{title}</h1>
-<div class="row flex-row justify-content-center align-items-center">
+<h1 class="mobile-text hobby-header tw-text-center sm:tw-text-start">
+  {title}
+</h1>
+<div
+  class="tw-flex tw-flex-col tw-items-center tw-justify-center sm:tw-grid sm:tw-grid-cols-12"
+>
   <!-- Screenshot and modal -->
-  <div class="col-md-6">
+  <div class="sm:tw-col-span-6">
     <img
       bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#{id}"
-      class="left-not-animated hobby-picture img-thumbnail img-fluid"
+      class="left-not-animated tw-rounded-xl tw-border tw-border-gray-200"
       class:left-animated={startAnimation}
       src={screenshot}
       alt="hobby"
@@ -40,8 +44,8 @@
   </div>
 
   <!-- Text body -->
-  <div class="col-md-6 pt-3">
-    <h1 class="desktop-text pb-3 text-center text-md-start">
+  <div class="tw-pt-5 sm:tw-col-span-6 sm:tw-ml-10 sm:tw-pt-0">
+    <h1 class="desktop-text tw-pb-2 tw-text-center sm:tw-text-start">
       {title}
     </h1>
     <p>{@html body}</p>
@@ -49,17 +53,11 @@
 </div>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   .hobby-header {
     margin-bottom: 15px;
   }
 
   /* Styling for hobby pictures */
-  img.hobby-picture {
-    border-radius: 5%;
-  }
-
   img.img-button {
     cursor: pointer;
   }

@@ -17,17 +17,17 @@
   });
 </script>
 
-<h1 class="display-4 text-center">
-  <b
+<div class="tw-flex tw-justify-center">
+  <h1
     bind:this={element}
     class:divider-animated={startAnimation}
-    class="pb-2 divider-not-animated"><slot /></b
+    class="divider-not-animated tw-pb-4 tw-text-6xl"
   >
-</h1>
+    <slot />
+  </h1>
+</div>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   /* Animation classes for animating dividers when scrolled into view */
   .divider-not-animated {
     background: none;

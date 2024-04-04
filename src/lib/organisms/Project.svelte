@@ -24,38 +24,38 @@
   });
 </script>
 
-<div class="project-header mobile-text" style="justify-content: center;">
+<div class="project-header mobile-text tw-justify-center">
   <img class="project-logo" src={logo} alt="project" />
   <h1 class="project-heading">{title}</h1>
 </div>
-<div class="row flex-row-reverse justify-content-center align-items-center">
-  <!-- Screenshot and modal -->
-  <div class="col-md-6">
-    <img
-      bind:this={element}
-      data-bs-toggle="modal"
-      data-bs-target="#{id}"
-      class="right-not-animated img-fluid"
-      class:right-animated={startAnimation}
-      src={screenshot}
-      alt="project"
-    />
-    <!-- <Modal {id}><img src={screenshot} class="img-modal" alt="project" /></Modal> -->
-  </div>
-
+<div
+  class="tw-flex tw-flex-col-reverse tw-items-center tw-justify-center sm:tw-grid sm:tw-grid-cols-12"
+>
   <!-- Text body -->
-  <div class="col-md-6 pt-3">
+  <div class="tw-pt-5 sm:tw-col-span-6 sm:tw-pt-0">
     <div class="project-header desktop-text pb-3">
       <img class="project-logo" src={logo} alt="project logo" />
       <h1 class="project-heading">{title}</h1>
     </div>
     <p>{@html body}</p>
   </div>
+
+  <!-- Screenshot and modal -->
+  <div class="sm:tw-col-span-6 sm:tw-ml-10">
+    <img
+      bind:this={element}
+      data-bs-toggle="modal"
+      data-bs-target="#{id}"
+      class="right-not-animated tw-rounded-xl tw-border tw-border-gray-200"
+      class:right-animated={startAnimation}
+      src={screenshot}
+      alt="project"
+    />
+    <!-- <Modal {id}><img src={screenshot} class="img-modal" alt="project" /></Modal> -->
+  </div>
 </div>
 
 <style>
-  @import "$lib/bootstrap.min.css";
-
   img.img-modal {
     max-width: 100%;
   }
