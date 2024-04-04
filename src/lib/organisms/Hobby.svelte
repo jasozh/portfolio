@@ -45,7 +45,7 @@
 
   <!-- Text body -->
   <div class="tw-pt-5 sm:tw-col-span-6 sm:tw-ml-10 sm:tw-pt-0">
-    <h2 class="desktop-text tw-pb-2 tw-text-center sm:tw-text-start">
+    <h2 class="desktop-text tw-pb-6 tw-text-center sm:tw-text-start">
       {title}
     </h2>
     <p>{@html body}</p>
