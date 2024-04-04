@@ -114,6 +114,12 @@
 </header>
 
 <style>
+  /* Define CSS variables */
+  :root {
+    /* Default lightgrey, changes to black when navbar color is inverted */
+    --active-color: lightgrey;
+  }
+
   /* Logo styling */
   img#logo {
     border-radius: 50%;
