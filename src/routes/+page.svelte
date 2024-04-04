@@ -31,7 +31,7 @@
 
 <!-- Body -->
 
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
+<div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
   <!-- Header  -->
   <Navbar id="navbar" />
 
@@ -94,4 +94,4 @@
 
   <!-- Footer -->
   <Footer>&copy; 2024 Jason Zheng. All rights reserved.</Footer>
-</body>
+</div>
