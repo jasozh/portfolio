@@ -12,21 +12,21 @@
     HomeTemplate,
   } from "$lib";
   import { projects, hobbies } from "$lib/data";
-  import { onMount } from "svelte";
+  import { base } from "$app/paths";
 </script>
 
 <svelte:head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" type="image/png" href="img/logo-circle.png" />
+  <link rel="icon" type="image/png" href="{base}/img/logo-circle.png" />
   <title>Jason Zheng</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="{base}/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="{base}/css/style.css" />
 
   <!-- JS -->
-  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="{base}/js/bootstrap.bundle.min.js"></script>
 </svelte:head>
 
 <!-- Body -->

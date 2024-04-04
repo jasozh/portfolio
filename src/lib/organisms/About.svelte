@@ -2,6 +2,7 @@
   import { Modal } from "$lib";
   import { isInViewport } from "$lib/helpers";
   import { onMount } from "svelte";
+  import { base } from "$app/paths";
 
   /** Element ref of the divider, see the bind:this below */
   let element: Element;
@@ -27,12 +28,12 @@
       data-bs-target="#profile-full"
       class="right-not-animated profile-full img-fluid img-button"
       class:right-animated={startAnimation}
-      src="/img/profile/profile2-full.jpg"
+      src="{base}/img/profile/profile2-full.jpg"
       alt="profile"
     />
 
     <Modal id="profile-full"
-      ><img src="/img/profile/profile2-full.jpg" alt="profile" /></Modal
+      ><img src="{base}/img/profile/profile2-full.jpg" alt="profile" /></Modal
     >
   </div>
 
@@ -60,7 +61,7 @@
       playing obscure video games, composing music, and writing short stories.
     </p>
 
-    <p>My resume is available <a href="docs/Resume.pdf">here</a>.</p>
+    <p>My resume is available <a href="{base}/docs/Resume.pdf">here</a>.</p>
   </div>
 </div>
 

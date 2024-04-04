@@ -1,5 +1,6 @@
 <script lang="ts">
   import { onMount } from "svelte";
+  import { base } from "$app/paths";
 
   /** The id of the navbar */
   export let id: string;
@@ -72,7 +73,7 @@
       <!-- Navbar brand -->
       <a class="navbar-brand d-md-none" href=".">
         <img
-          src="img/logo.png"
+          src="{base}/img/logo.png"
           id="logo"
           alt=""
           class="d-inline-block align-text-top"

@@ -1,5 +1,9 @@
+<script lang="ts">
+  import { base } from "$app/paths";
+</script>
+
 <!-- Profile picture and title text -->
-<img class="profile" src="/img/profile/profile2.png" alt="profile" />
+<img class="profile" src="{base}/img/profile/profile2.png" alt="profile" />
 <h1 class="title-text px-2 py-4 display-4">
   <b>My name is Jason Zheng</b>
 </h1>

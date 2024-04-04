@@ -19,7 +19,7 @@ You can find me on the Internet here:
 
 <p>
   You can contact me at <a
-    href="mailto:jqz4@cornell.edu?subject=Email from jasozh.github.io"
-    >jqz4@cornell.edu</a
+    href="mailto:jasonqzheng@gmail.com?subject=Email from jasozh.github.io"
+    >jasonqzheng@gmail.com</a
   >.
 </p>
