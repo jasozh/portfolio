@@ -66,6 +66,7 @@
             <!-- Spacers -->
             <div class="pb-5"></div>
             <div class="pb-5"></div>
+            <div class="pb-5"></div>
           {/if}
         </div>
       {/each}
@@ -84,6 +85,7 @@
 
           {#if i < hobbies.length - 1}
             <!-- Spacers -->
+            <div class="pb-5"></div>
             <div class="pb-5"></div>
             <div class="pb-5"></div>
           {/if}

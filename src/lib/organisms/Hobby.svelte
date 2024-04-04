@@ -31,7 +31,7 @@
       bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#{id}"
-      class="left-not-animated hobby-picture shadow-sm img-thumbnail img-fluid img-button"
+      class="left-not-animated hobby-picture img-thumbnail img-fluid img-button"
       class:left-animated={startAnimation}
       src={screenshot}
       alt="hobby"

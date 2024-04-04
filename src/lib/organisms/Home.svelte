@@ -5,9 +5,9 @@
 <!-- Profile picture and title text -->
 <img class="profile" src="{base}/img/profile/profile2.png" alt="profile" />
 <h1 class="title-text px-2 py-4 display-4">
-  <b>My name is Jason Zheng</b>
+  <b>Jason Zheng</b>
 </h1>
-<h3 class="subtitle-text px-2 py-4">And welcome to my website</h3>
+<h3 class="subtitle-text px-2 py-4">Welcome to my website</h3>
 
 <!-- Button group -->
 <div class="row button-group">

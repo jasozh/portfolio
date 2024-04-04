@@ -35,5 +35,6 @@
   .home-content {
     position: relative;
     text-align: center;
+    backdrop-filter: blur(10px);
   }
 </style>
