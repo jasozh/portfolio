@@ -5,6 +5,22 @@
   export let body: string;
 
   import { Modal } from "$lib";
+  import { isInViewport } from "$lib/helpers";
+  import { onMount } from "svelte";
+
+  /** Element ref of the divider, see the bind:this below */
+  let element: Element;
+
+  /** Whether the divider should start its animation */
+  let startAnimation = false;
+
+  onMount(() => {
+    window.addEventListener("scroll", function () {
+      if (isInViewport(element)) {
+        startAnimation = true;
+      }
+    });
+  });
 </script>
 
 <h1 class="mobile-text text-center text-md-start">{title}</h1>
@@ -12,9 +28,11 @@
   <!-- Screenshot and modal -->
   <div class="col-md-6">
     <img
+      bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#{id}"
       class="left-not-animated hobby-picture shadow-sm img-thumbnail img-fluid img-button"
+      class:left-animated={startAnimation}
       src={screenshot}
       alt="hobby"
     />
@@ -59,6 +77,24 @@
 
     .desktop-text {
       display: default;
+    }
+  }
+
+  /* Animation classes for animating images when scrolled from left into view */
+  .left-not-animated {
+    visibility: hidden;
+  }
+
+  .left-animated {
+    visibility: visible;
+    animation-name: left-animated-animation;
+    animation-duration: 1s;
+  }
+
+  @keyframes left-animated-animation {
+    0% {
+      opacity: 0;
+      transform: translate(-500px, 0px);
     }
   }
 </style>

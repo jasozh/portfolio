@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { SectionHeader } from "$lib";
+
   export let id: string;
   export let title: string;
   export let color: "gray" | "white" = "white";
@@ -7,9 +9,7 @@
 <article {id} class={color === "gray" ? "alternate" : ""}>
   <div class="content container">
     <!-- Title -->
-    <h1 class="display-4 text-center">
-      <b class="pb-2 divider-not-animated">{title}</b>
-    </h1>
+    <SectionHeader>{title}</SectionHeader>
 
     <!-- Spacers -->
     <div class="pb-5"></div>

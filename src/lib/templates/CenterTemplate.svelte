@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { SectionHeader } from "$lib";
+
   export let id: string;
   export let title: string;
   export let color: "gray" | "white" = "white";
@@ -9,12 +11,10 @@
     class="d-flex flex-column min-vh-100 justify-content-center align-items-center"
   >
     <!-- Title -->
-    <h1 class="display-4 pb-5 text-center">
-      <b class="pb-2 divider-not-animated">{title}</b>
-    </h1>
+    <SectionHeader>{title}</SectionHeader>
 
     <!-- CHILDREN LOADED HERE -->
-    <div>
+    <div class="pt-5">
       <slot />
     </div>
   </div>

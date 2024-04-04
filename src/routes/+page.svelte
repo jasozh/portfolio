@@ -12,14 +12,7 @@
     HomeTemplate,
   } from "$lib";
   import { projects, hobbies } from "$lib/data";
-  import { scrollAnimate } from "$lib/script";
   import { onMount } from "svelte";
-
-  onMount(() => {
-    window.addEventListener("scroll", function () {
-      scrollAnimate();
-    });
-  });
 </script>
 
 <svelte:head>

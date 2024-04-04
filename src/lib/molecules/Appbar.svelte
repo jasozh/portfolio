@@ -7,6 +7,8 @@
   /** List of nav labels and links in order of display */
   export let navs: { label: string; link: string }[];
 
+  let tmp = false;
+
   onMount(() => {
     resizeNavbar();
 
@@ -101,6 +103,7 @@
             <a
               id={i === 0 ? "top-nav" : String(i)}
               class="nav-link px-4"
+              class:active={tmp}
               href={nav.link}>{nav.label}</a
             >
           {/each}
@@ -115,5 +118,24 @@
   img#logo {
     border-radius: 50%;
     height: 25px;
+  }
+
+  /* Show highlighted active state only on desktop */
+  @media screen and (max-width: 767px) {
+    a.active {
+      text-decoration: underline;
+      transition: 0s;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    a.active {
+      background-color: var(--active-color);
+      border-radius: 5px;
+    }
+
+    a.nav-link:hover {
+      text-decoration: underline;
+    }
   }
 </style>

@@ -1,4 +1,5 @@
 // Atoms
+export { default as SectionHeader } from "$lib/atoms/SectionHeader.svelte";
 
 // Molecules
 export { default as Appbar } from "$lib/molecules/Appbar.svelte";

@@ -1,14 +1,32 @@
 <script lang="ts">
   import { Modal } from "$lib";
+  import { isInViewport } from "$lib/helpers";
+  import { onMount } from "svelte";
+
+  /** Element ref of the divider, see the bind:this below */
+  let element: Element;
+
+  /** Whether the divider should start its animation */
+  let startAnimation = false;
+
+  onMount(() => {
+    window.addEventListener("scroll", function () {
+      if (isInViewport(element)) {
+        startAnimation = true;
+      }
+    });
+  });
 </script>
 
 <div class="row flex-row-reverse justify-content-center align-items-center">
   <!-- Picture -->
   <div class="col-8 col-md-5">
     <img
+      bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#profile-full"
       class="right-not-animated profile-full img-fluid img-button"
+      class:right-animated={startAnimation}
       src="img/profile/profile2-full.jpg"
       alt="profile"
     />
@@ -54,5 +72,23 @@
 
   img.img-button {
     cursor: pointer;
+  }
+
+  /* Animation classes for animating images when scrolled from right into view */
+  .right-not-animated {
+    visibility: hidden;
+  }
+
+  .right-animated {
+    visibility: visible;
+    animation-name: right-animated-animation;
+    animation-duration: 1s;
+  }
+
+  @keyframes right-animated-animation {
+    0% {
+      opacity: 0;
+      transform: translate(500px, 0px);
+    }
   }
 </style>
