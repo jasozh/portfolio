@@ -27,12 +27,12 @@
       data-bs-target="#profile-full"
       class="right-not-animated profile-full img-fluid img-button"
       class:right-animated={startAnimation}
-      src="img/profile/profile2-full.jpg"
+      src="/img/profile/profile2-full.jpg"
       alt="profile"
     />
 
     <Modal id="profile-full"
-      ><img src="img/profile/profile2-full.jpg" alt="profile" /></Modal
+      ><img src="/img/profile/profile2-full.jpg" alt="profile" /></Modal
     >
   </div>
 

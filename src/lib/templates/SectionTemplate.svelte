@@ -31,6 +31,6 @@
 
   /* Alternate article background */
   article.alternate {
-    background: #f0f2f5;
+    background: #f5f5f5;
   }
 </style>

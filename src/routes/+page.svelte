@@ -22,11 +22,11 @@
   <title>Jason Zheng</title>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/style.css" />
 
   <!-- JS -->
-  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
 </svelte:head>
 
 <!-- Body -->
