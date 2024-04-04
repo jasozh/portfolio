@@ -21,7 +21,7 @@
   <h1
     bind:this={element}
     class:divider-animated={startAnimation}
-    class="divider-not-animated tw-pb-4 tw-text-6xl"
+    class="divider-not-animated tw-pb-3"
   >
     <slot />
   </h1>

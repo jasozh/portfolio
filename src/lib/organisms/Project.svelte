@@ -26,7 +26,7 @@
 
 <div class="project-header mobile-text tw-justify-center">
   <img class="project-logo" src={logo} alt="project" />
-  <h1 class="project-heading">{title}</h1>
+  <h2 class="project-heading">{title}</h2>
 </div>
 <div
   class="tw-flex tw-flex-col-reverse tw-items-center tw-justify-center sm:tw-grid sm:tw-grid-cols-12"
@@ -35,7 +35,7 @@
   <div class="tw-pt-5 sm:tw-col-span-6 sm:tw-pt-0">
     <div class="project-header desktop-text pb-3">
       <img class="project-logo" src={logo} alt="project logo" />
-      <h1 class="project-heading">{title}</h1>
+      <h2 class="project-heading">{title}</h2>
     </div>
     <p>{@html body}</p>
   </div>

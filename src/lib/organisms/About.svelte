@@ -57,7 +57,7 @@
         bind:this={element}
         data-bs-toggle="modal"
         data-bs-target="#profile-full"
-        class="right-not-animated profile-full"
+        class="right-not-animated profile-full tw-max-h-96 sm:tw-max-h-none"
         class:right-animated={startAnimation}
         src="{base}/img/profile/profile2-full.jpg"
         alt="profile"

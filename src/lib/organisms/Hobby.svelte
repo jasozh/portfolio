@@ -23,9 +23,9 @@
   });
 </script>
 
-<h1 class="mobile-text hobby-header tw-text-center sm:tw-text-start">
+<h2 class="mobile-text hobby-header tw-text-center sm:tw-text-start">
   {title}
-</h1>
+</h2>
 <div
   class="tw-flex tw-flex-col tw-items-center tw-justify-center sm:tw-grid sm:tw-grid-cols-12"
 >
@@ -45,9 +45,9 @@
 
   <!-- Text body -->
   <div class="tw-pt-5 sm:tw-col-span-6 sm:tw-ml-10 sm:tw-pt-0">
-    <h1 class="desktop-text tw-pb-2 tw-text-center sm:tw-text-start">
+    <h2 class="desktop-text tw-pb-2 tw-text-center sm:tw-text-start">
       {title}
-    </h1>
+    </h2>
     <p>{@html body}</p>
   </div>
 </div>
