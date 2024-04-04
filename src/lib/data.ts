@@ -1,26 +1,54 @@
 import { base } from "$app/paths";
 
 export const projects = [
+  // {
+  //   id: "volunteer-platform",
+  //   title: "LFBI Volunteer Platform",
+  //   logo: `${base}/img/projects/earth-legislator-logo.png`,
+  //   screenshot: `${base}/img/projects/earth-legislator.png`,
+  //   body: "Product Manager / Technical Lead &#8226; Hack4Impact Cornell<br><br>An end-to-end volunteer management solution built for the Lagos Food Bank Initiative and designed to handle a capacity of 20,000 volunteers. Built with the latest technologies, including Next.js, Prisma ORM, Firebase, and SendGrid. See the <a href='https://earth-law-center.herokuapp.com/'>website</a> and view the source on <a href='https://github.com/cornellh4i/earth-law-center/'>GitHub</a>.",
+  // },
+  // {
+  //   id: "sketchy",
+  //   title: "Sketchy",
+  //   logo: `${base}/img/projects/earth-legislator-logo.png`,
+  //   screenshot: `${base}/img/projects/earth-legislator.png`,
+  //   body: "Technical Lead &#8226; Cornell Data Science<br><br>Turn any photo into a coloring book outline with infinite resolution. Utilizing image segmentation, edge detection, edge smoothing, and SVG conversion, all wrapped into an easy-to-install Electron app. Download on <a href='https://github.com/cornellh4i/earth-law-center/'>GitHub</a>.",
+  // },
+  // {
+  //   id: "mathsearch",
+  //   title: "MathSearch",
+  //   logo: `${base}/img/projects/earth-legislator-logo.png`,
+  //   screenshot: `${base}/img/projects/earth-legislator.png`,
+  //   body: "Developer &#8226; Cornell Data Science<br><br>A next-generation search engine for finding LaTeX expressions in PDFs. See the <a href='https://earth-law-center.herokuapp.com/'>website</a> and view the source on <a href='https://github.com/cornellh4i/earth-law-center/'>GitHub</a>.",
+  // },
+  {
+    id: "earth-legislator",
+    title: "Earth Legislator",
+    logo: `${base}/img/projects/earth-legislator-logo.png`,
+    screenshot: `${base}/img/projects/earth-legislator.png`,
+    body: "Developer &#8226; Hack4Impact Cornell<br><br>Create eco-centric template laws for your local municipality. Developed for the Earth Law Center, written in React and Node.js. See the <a href='https://earth-law-center.herokuapp.com/'>website</a> and view the source on <a href='https://github.com/cornellh4i/earth-law-center/'>GitHub</a>.",
+  },
   {
     id: "canari",
     title: "Canari",
     logo: `${base}/img/projects/canari-logo.png`,
     screenshot: `${base}/img/projects/canari.png`,
-    body: "Track your classes and keep up with enrollment. A beautiful native Linux app written with Python 3, GTK4+, and libadwaita. Canari is available for download on <a href='https://github.com/jasozh/canari'>GitHub</a>.",
+    body: "Track your classes and keep up with enrollment. A beautiful native Linux app written in Python, GTK4, and libadwaita. Download on <a href='https://github.com/jasozh/canari'>GitHub</a>.",
   },
   {
     id: "website",
     title: "jasozh.github.io",
     logo: `${base}/img/projects/website-logo.png`,
     screenshot: `${base}/img/projects/website.png`,
-    body: "A personal portfolio website designed from the ground up to be modern, performant, and responsive. Developed using HTML, CSS, JavaScript, and Bootstrap 5. The source code is available on <a href='https://github.com/jasozh/jasozh.github.io'>GitHub</a>.",
+    body: "A personal portfolio website written in Svelte and designed from the ground up to be modern, performant, and responsive. View the source on <a href='https://github.com/jasozh/jasozh.github.io'>GitHub</a>.",
   },
   {
     id: "jadventure",
     title: "JAdventure",
     logo: `${base}/img/projects/jadventure-logo.png`,
     screenshot: `${base}/img/projects/jadventure.png`,
-    body: "In the harshest corner of the world lies the Blasted Land, a place where few men have crossed and even fewer have lingered long. Kill monsters, survive hostile encounters, and defeat a cruel beast to restore peace to the lands. JAdventure is available for download on <a href='https://github.com/jasozh/jadventure'>GitHub</a>.",
+    body: "In the harshest corner of the world lies the Blasted Land, a place where few men have crossed and even fewer have lingered long. Kill monsters, survive hostile encounters, and defeat a cruel beast to restore peace to the lands. Download on <a href='https://github.com/jasozh/jadventure'>GitHub</a>.",
   },
 ];
 
