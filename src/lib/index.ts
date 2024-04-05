@@ -1,4 +1,5 @@
 // Atoms
+export { default as LinkButton } from "$lib/atoms/LinkButton.svelte";
 export { default as SectionHeader } from "$lib/atoms/SectionHeader.svelte";
 
 // Molecules

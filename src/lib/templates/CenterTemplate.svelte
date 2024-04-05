@@ -8,7 +8,7 @@
 
 <article {id} class={color === "gray" ? "alternate" : ""}>
   <div
-    class="tw-flex tw-min-h-screen tw-flex-col tw-items-center tw-justify-center"
+    class="tw-flex tw-min-h-screen tw-flex-col tw-items-center tw-justify-center tw-p-[20px]"
   >
     <!-- Title -->
     <SectionHeader>{title}</SectionHeader>
