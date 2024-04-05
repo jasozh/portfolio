@@ -67,7 +67,7 @@
   }
 
   /* Hide/show text when on mobile/desktop */
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 639px) {
     .mobile-text {
       display: default;
     }
@@ -77,7 +77,7 @@
     }
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 640px) {
     .mobile-text {
       display: none;
     }
