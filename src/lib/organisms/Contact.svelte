@@ -8,7 +8,7 @@
     <LinkButton href="https://github.com/jasozh/">
       <div class="tw-flex tw-gap-1">
         <svg
-          class="w-6 h-6 text-gray-800 dark:text-white"
+          class="w-6 h-6 text-gray-800"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -29,7 +29,7 @@
     <LinkButton href="https://www.linkedin.com/in/jason-zheng-07a4a5223/">
       <div class="tw-flex tw-gap-1">
         <svg
-          class="w-6 h-6 text-gray-800 dark:text-white"
+          class="w-6 h-6 text-gray-800"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -51,7 +51,7 @@
     <LinkButton href="https://cornell.joinhandshake.com/users/33101352">
       <div class="tw-flex tw-gap-1">
         <svg
-          class="w-6 h-6 text-gray-800 dark:text-white"
+          class="w-6 h-6 text-gray-800"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -74,7 +74,7 @@
     <LinkButton href="https://www.youtube.com/channel/UCpDZ0IkIDqkXK8ZTJfTx2sA">
       <div class="tw-flex tw-gap-1">
         <svg
-          class="w-6 h-6 text-gray-800 dark:text-white"
+          class="w-6 h-6 text-gray-800"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
@@ -95,7 +95,7 @@
     <LinkButton href="https://musescore.com/user/38882263">
       <div class="tw-flex tw-gap-1">
         <svg
-          class="w-6 h-6 text-gray-800 dark:text-white"
+          class="w-6 h-6 text-gray-800"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
