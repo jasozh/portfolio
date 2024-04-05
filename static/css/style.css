@@ -1,10 +1,5 @@
-/* Add CSS animations to all page elements */
-* {
-  transition: 0.2s;
-}
-
 /* Prevent Bootstrap modals from repositioning site content */
-html {
+/* html {
   margin-right: calc(-1 * (100vw - 100%));
 }
 
@@ -14,7 +9,7 @@ html {
 
 .modal-open {
   padding-right: 0 !important;
-}
+} */
 
 /* Hides x overflow to allow animations to slide in images offscreen */
 body {

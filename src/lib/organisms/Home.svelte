@@ -44,6 +44,11 @@
 <style>
   @import "$lib/bootstrap.min.css";
 
+  /* Add CSS animations to all page elements */
+  * {
+    transition: 0.2s;
+  }
+
   /* Ensures that the main button group on Home is responsive */
   @media screen and (max-width: 991px) {
     .button-group {
