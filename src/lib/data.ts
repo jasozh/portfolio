@@ -1,5 +1,10 @@
 import { base } from "$app/paths";
 
+/**
+ * Images should be 1128 x 754 for web content. App screenshots should be taken
+ * without shadows. To disable shadows on GNOME, enable the Rounded Window
+ * Corners extension for all apps
+ */
 export const projects = [
   // {
   //   id: "volunteer-platform",
