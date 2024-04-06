@@ -33,13 +33,20 @@
   <div class="sm:tw-col-span-6">
     <img
       bind:this={element}
+      class="left-not-animated tw-rounded-xl tw-border tw-border-gray-200 tw-shadow-md"
+      class:left-animated={startAnimation}
+      src={screenshot}
+      alt="hobby"
+    />
+    <!-- <img
+      bind:this={element}
       data-bs-toggle="modal"
       data-bs-target="#{id}"
       class="left-not-animated tw-rounded-xl tw-border tw-border-gray-200 tw-shadow-md"
       class:left-animated={startAnimation}
       src={screenshot}
       alt="hobby"
-    />
+    /> -->
     <!-- <Modal {id}><img src={screenshot} class="img-modal" alt="hobby" /></Modal> -->
   </div>
 
