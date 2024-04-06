@@ -142,14 +142,14 @@
   /* Show highlighted active state only on desktop */
   @media screen and (max-width: 767px) {
     a.active {
-      text-decoration: underline;
+      /* text-decoration: underline; */
       transition: 0s;
     }
   }
 
   @media screen and (min-width: 768px) {
     a.active {
-      background-color: var(--active-color);
+      /* background-color: var(--active-color); */
       border-radius: 5px;
     }
 
